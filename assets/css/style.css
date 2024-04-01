@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #F3F6F4;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+h1{
+    margin: 0px;
+    border: 0px;
+}
+
+.container{
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.container p{
+    margin-bottom: 0px;
+
+}
+
+.resumen{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#contador{
+    display: flex;
+    flex-direction: column;
+    font-size:small
+}
+
+.resumen_cont{
+    display: flex;
+    margin-top: 5px;
+    border: 0px;
+}
+
+.resumen_cont p{
+    margin: 0px;
+}
+
+.resumen_cont span{
+    margin: 0px;
+}
+
+table{
+    margin-right: 15px;
+    font-size:small
+}
+
+.tabla_id{
+    width: 25px;
+    text-align: center;
+}
+
+.tabla_tarea{
+    width: 200px;
+    text-align: start;
+}
+
+table td {
+    width: 15px;
+    text-align: center;
+}
+
+.otros_td {
+    cursor: pointer;
+}
